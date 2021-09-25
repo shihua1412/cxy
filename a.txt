@@ -4,4 +4,10 @@ public class Test1{
 	   System.out.println("I am " + age);
 	}
    }
+
+   private void testRemote(boolean isRemote){
+	while(isRemote){
+	  System.out.println("I am comming!");
+	}
+   }
 }
