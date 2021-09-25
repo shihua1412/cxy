@@ -1,3 +1,7 @@
 public class Test1{
-
+   public static void main(int age){
+	if(18 == age){
+	   System.out.println("I am " + age);
+	}
+   }
 }
