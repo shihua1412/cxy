@@ -1,0 +1,12 @@
+public class TestB {
+    public static void main(String[] args) {
+        int a = 7;
+        int b = 4;
+        int c = a / b;
+        int res = a - c * b;
+        System.out.println("c = " + c);
+        System.out.println("res = " + res);
+        System.out.println(a % b);
+
+    }
+}
